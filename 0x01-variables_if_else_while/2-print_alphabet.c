@@ -17,6 +17,6 @@ for (i = 'a'; i <= 'z'; i++)
 {
 putchar(i);
 }
-write(2, "\n", 2);
+putchar('\n');
 return (0);
 }
