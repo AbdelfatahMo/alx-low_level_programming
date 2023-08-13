@@ -13,10 +13,10 @@
 int main(void)
 {
 char i;
-for ( i = 'a'; i <= 'z'; i++ )
+for (i = 'a'; i <= 'z'; i++)
 {
 putchar(i);
 }
-write(2,"\n",2);
+write(2, "\n", 2);
 return (0);
 }
