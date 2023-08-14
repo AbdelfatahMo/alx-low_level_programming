@@ -1,11 +1,4 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <time.h>
-#include <unistd.h>
-#include <stdbool.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 /**
  * main - Entry point
  *
@@ -13,10 +6,7 @@
  */
 int main(void)
 {
-int i;
-int x;
-int y;
-int z;
+int i, x, y, z;
 for (i = 48; i <= 57; i++)
 {
 for (x = 48; x <= 57; x++)
@@ -36,26 +26,15 @@ putchar(y);
 putchar(z);
 if (i == 57 && x == 56 && y == 57 && z == 57)
 {
-break;
+goto end;
 }
 putchar(',');
 putchar(' ');
 }
-if (i == 57 && x == 56 && y == 57 && z == 57)
-{
-break;
 }
 }
-if (i == 57 && x == 56 && y == 57 && z == 57)
-{
-break;
 }
-}
-if (i == 57 && x == 56 && y == 57 && z == 57)
-{
-break;
-}
-}
+end:
 putchar('\n');
 return (0);
 }
