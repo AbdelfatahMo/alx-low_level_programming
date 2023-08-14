@@ -41,7 +41,19 @@ break;
 putchar(',');
 putchar(' ');
 }
+if (i == 57 && x == 56 && y == 57 && z == 57)
+{
+break;
 }
+}
+if (i == 57 && x == 56 && y == 57 && z == 57)
+{
+break;
+}
+}
+if (i == 57 && x == 56 && y == 57 && z == 57)
+{
+break;
 }
 }
 putchar('\n');
