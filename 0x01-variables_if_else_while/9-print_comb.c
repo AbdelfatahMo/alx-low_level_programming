@@ -13,10 +13,11 @@
 int main(void)
 {
 int i;
+int x;
 int arr[2] = {48, 44};
 for (i = 48; i <= 57; i++)
 {
-for (int x = 0; x < 2; x++)
+for (x = 0; x < 2; x++)
 {
 arr[0] = i;
 if (i == 57 && x == 1)
