@@ -31,6 +31,7 @@ continue;
 }
 putchar(i);
 putchar(x);
+putchar(' ');
 putchar(y);
 putchar(z);
 if (i == 57 && x == 56 && y == 57 && z == 57)
