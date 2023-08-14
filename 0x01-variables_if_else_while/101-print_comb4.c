@@ -29,7 +29,7 @@ continue;
 putchar(i);
 putchar(x);
 putchar(y);
-if (i == 55 && x == 56 && y==57)
+if (i == 55 && x == 56 && y == 57)
 {
 break;
 }
