@@ -15,7 +15,7 @@ for (y = 48; y <= 57; y++)
 {
 for (z = 48; z <= 57; z++)
 {
-if (i > y || z + y < x + i + 1)
+if (i >= y || z + y < x + i + 1)
 {
 continue;
 }
