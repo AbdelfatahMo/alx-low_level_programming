@@ -13,10 +13,22 @@
 int main(void)
 {
 int i;
+int arr[2] = {48, 44};
 for (i = 48; i <= 57; i++)
 {
-putchar(i);
-putchar(', ');
+for (int x = 0; x < 2; x++)
+{
+arr[0] = i;
+if (i == 57 && x == 1)
+{
+break;
+}
+putchar(arr[x]);
+}
+if (i != 57)
+{
+putchar(' ');
+}
 }
 putchar('$');
 putchar('\n');
