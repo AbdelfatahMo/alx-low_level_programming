@@ -13,12 +13,13 @@
 int main(void)
 {
 int i;
+char x;
 for (i = 48; i <= 57; i++)
 {
 putchar(i);
-if(i==57)
+if (i == 57)
 {
-for (char x = 'a'; x <= 'f'; x++)
+for (x = 'a'; x <= 'f'; x++)
 {
 putchar(x);
 }
