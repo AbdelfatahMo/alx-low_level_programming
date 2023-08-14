@@ -25,7 +25,7 @@ for (y = 48; y <= 57; y++)
 {
 for (z = 48; z <= 57; z++)
 {
-if (i > y || z < x+1 )
+if (i > y || z < x + 1)
 {
 continue;
 }
@@ -39,7 +39,7 @@ if (i == 57 && x == 56 && y == 57 && z == 57)
 break;
 }
 putchar(',');
-putchar(' ');                    
+putchar(' ');
 }
 }
 }
