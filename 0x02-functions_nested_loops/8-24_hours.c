@@ -7,13 +7,17 @@
  */
 void jack_bauer(void)
 {
-for (int h = 0; h < 3; h++)
+int h;
+int h1;
+int m;
+int m1;
+for (h = 0; h < 3; h++)
 {
-for (int h1 = 0; h1 < 10; h1++)
+for (h1 = 0; h1 < 10; h1++)
 {
-for (int m = 0; m < 6; m++)
+for (m = 0; m < 6; m++)
 {
-for (int m1 = 0; m1 < 10; m1++)
+for (m1 = 0; m1 < 10; m1++)
 {  
 _putchar(h);
 _putchar(h1);
