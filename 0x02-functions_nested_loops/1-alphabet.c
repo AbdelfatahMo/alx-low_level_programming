@@ -1,11 +1,9 @@
 #include "main.h"
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 /**
- * main - Entry point
+ * print_alphabet - prints the characters
  *
- * Return: Always 0 (Success)
+ * Return: void
+ * On error, returnnothing.
  */
 void print_alphabet(void)
 {
