@@ -32,7 +32,7 @@ _putchar(m1+48);
 _putchar('\n');                
 }            
 }        
-}    
 }
-end:
+end:    
+}
 }
