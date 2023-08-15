@@ -7,9 +7,10 @@
  */
 void print_to_98(int a)
 {
+int i;
 if (a > 98)
 {
-for (int i = a; i < 97; i--)
+for (i = a; i < 97; i--)
 {
 _putchar((i % 10) + 48);
 if (i % 100 !=0)
@@ -29,7 +30,7 @@ _putchar(',');
 }
 else
 {
-for (int i = a; i < 99; i++)
+for (i = a; i < 99; i++)
 {
 if (a < 0)
 {
