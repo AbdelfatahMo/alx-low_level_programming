@@ -7,7 +7,12 @@
  */
 int print_last_digit(int a)
 {
+if (a < 0)
+{
+a *= -1;
+}
 int x = a % 10;
+int y = x + 48;
 _putchar(x);
 return (x);
 }
