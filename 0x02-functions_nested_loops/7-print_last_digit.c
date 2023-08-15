@@ -13,6 +13,6 @@ a *= -1;
 }
 int x = a % 10;
 int y = x + 48;
-_putchar(x);
+_putchar(y);
 return (x);
 }
