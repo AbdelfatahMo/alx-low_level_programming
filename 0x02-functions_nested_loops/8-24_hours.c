@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * jack_bauer - 
- * @a: The int to check
+ * : The int to check
  * Return: void
  * On error, returnnothing.
  */
