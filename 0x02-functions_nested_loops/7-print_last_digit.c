@@ -5,7 +5,9 @@
  * Return: void
  * On error, returnnothing.
  */
-int print_last_digit(int *a)
+int print_last_digit(int a)
 {
-return (*a%10);
+int x = a % 10;
+_putchar(x);
+return (x);
 }
