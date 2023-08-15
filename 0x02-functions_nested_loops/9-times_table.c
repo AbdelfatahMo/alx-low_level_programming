@@ -17,15 +17,13 @@ for (h1 = 0; h1 < 10; h1++)
 num = (h * h1);
 if (num + 48 < 58)
 {
-_putchar(num);
+_putchar(num + 48);
 }
 else
 {
-_putchar((num % 10) + 48);
 _putchar(((num - (num % 10)) / 10) + 48);
+_putchar((num % 10) + 48);
 }
-    
-
 if (h1 < 9)
 {
 _putchar(',');
