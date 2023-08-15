@@ -1,5 +1,4 @@
 #include "main.h"
-void print_alphabet(void);
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
@@ -8,12 +7,6 @@ void print_alphabet(void);
  *
  * Return: Always 0 (Success)
  */
-int main(void)
-{
-print_alphabet();
-return (0);
-}
-
 void print_alphabet(void)
 {
 char i;
