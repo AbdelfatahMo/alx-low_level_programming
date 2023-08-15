@@ -19,11 +19,11 @@ for (m = 0; m < 6; m++)
 {
 for (m1 = 0; m1 < 10; m1++)
 {  
-_putchar(h);
-_putchar(h1);
+_putchar(h+48);
+_putchar(h1+48);
 _putchar(':');
-_putchar(m);
-_putchar(m1);
+_putchar(m+48);
+_putchar(m1+48);
 _putchar('\n');                
 }            
 }        
