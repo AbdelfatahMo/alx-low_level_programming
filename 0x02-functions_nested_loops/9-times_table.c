@@ -28,6 +28,10 @@ if (h1 < 9)
 {
 _putchar(',');
 _putchar(' ');
+if (num + 48 < 58)
+{
+_putchar(' ');
+}
 }
 }
 _putchar('\n');
