@@ -9,8 +9,8 @@ int print_last_digit(int a)
 {
 if (a < 0)
 {
-a *= -1;
+a = -a;
 }
-_putchar((a % 10)+48);
+_putchar((a % 10) + 48);
 return (a % 10);
 }
