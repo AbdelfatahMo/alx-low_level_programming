@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * jack_bauer - 
- * : The int to check
+ * jack_bauer - prints day minutes
+ * not take arg
  * Return: void
  * On error, returnnothing.
  */
@@ -28,9 +28,9 @@ _putchar(h1 + 48);
 _putchar(':');
 _putchar(m + 48);
 _putchar(m1 + 48);
-_putchar('\n');                
-}            
-}        
-} 
+_putchar('\n');
+}
+}
+}
 }
 }
