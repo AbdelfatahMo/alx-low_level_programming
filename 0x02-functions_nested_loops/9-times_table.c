@@ -28,7 +28,7 @@ if (h1 < 9)
 {
 _putchar(',');
 _putchar(' ');
-if (num + 48 < 58)
+if (num  < 10)
 {
 _putchar(' ');
 }
