@@ -1,4 +1,5 @@
 #include "main.h"
+void print_alphabet(void);
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
