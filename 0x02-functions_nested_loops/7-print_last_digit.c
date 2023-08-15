@@ -11,8 +11,10 @@ if (a < 0)
 {
 a *= -1;
 }
-int x = a % 10;
-int y = x + 48;
+int x;
+x = a % 10;
+int y;
+y = x + 48;
 _putchar(y);
 return (x);
 }
