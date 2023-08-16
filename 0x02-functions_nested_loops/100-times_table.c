@@ -7,12 +7,12 @@
  */
 void print_times_table(int n)
 {
-    int num, y;
+    int num, y, i, o;
     if (n <= 15 && n >= 0)
     {
-        for (int i = 0; i <= n + 1; i++)
+        for (i = 0; i <= n + 1; i++)
         {
-            for (int o = 0; o <= n; o++)
+            for (o = 0; o <= n; o++)
             {
                 num = i * o;
                 y = 3;
