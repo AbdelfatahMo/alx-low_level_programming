@@ -16,11 +16,11 @@ void print_to_98(int a)
         }
         if (i >= 100 || i <= -100)
         {
-           _putchar(((i - ((i % 100))) / 100) + 48);
+           _putchar((((unsigned)i - (((unsigned)i % 100))) / 100) + 48);
         }
         if (i >= 10 || i <= -10)
         {
-           _putchar((((i % 100) - (i % 10))/10) + 48);
+           _putchar(((((unsigned)i % 100) - ((unsigned)i % 10))/10) + 48);
         }
         _putchar((i % 10) + 48);
         _putchar(',');
