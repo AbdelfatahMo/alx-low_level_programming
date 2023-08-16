@@ -36,5 +36,5 @@ void print_to_98(int a)
     }
     _putchar(9 + 48);
     _putchar(8 + 48);
-
+    _putchar('\n');
 }
