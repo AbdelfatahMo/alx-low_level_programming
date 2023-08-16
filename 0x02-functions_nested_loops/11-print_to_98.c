@@ -10,28 +10,28 @@ void print_to_98(int a)
     int i;
     for (i = a; i != 98;)
     {   
-        if (a < 0)
+        if (i < 0)
         {
             _putchar('-');
         }
-        if (a >= 100 || a <= -100)
+        if (i >= 100 || i <= -100)
         {
            _putchar(((i - ((i % 100))) / 100) + 48);
         }
-        if (a >= 10 || a <= -10)
+        if (i >= 10 || i <= -10)
         {
-           _putchar((((i % 100) -  (i % 10))/10) + 48);
+           _putchar((((i % 100) - (i % 10))/10) + 48);
         }
         _putchar((i % 10) + 48);
         _putchar(',');
         _putchar(' ');
-        if (a < 98)
+        if (a > 98)
         {
-            i++;
+            i--;
         }
         else
         {
-            i--;
+            i++;
         }
     }
     _putchar(9 + 48);
