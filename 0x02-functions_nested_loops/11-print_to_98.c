@@ -7,50 +7,34 @@
  */
 void print_to_98(int a)
 {
-int i;
-if (a > 98)
-{
-for (i = a; i < 97; i--)
-{
-if (i % 1000 !=0)
-{
-_putchar(((i) - (i % 100) - (i % 10)) % 1000 + 48);
-}
-if (i % 100 !=0)
-{
-_putchar((i - (i % 10)) % 100 + 48);
-}
-_putchar((i % 10) + 48);
+    int i;
+    for (i = a; i != 98;)
+    {   
+        if (a < 0)
+        {
+            _putchar('-');
+        }
+        if (a > 99 || a < -99)
+        {
+           _putchar(((i - ((i % 100) + (i % 10))) / 100) + 48);
+        }
+        if (a > 9 || a < -9)
+        {
+           _putchar(((i -  (i % 10)) / 10) + 48);
+        }
+        _putchar((i % 10) + 48);
+        _putchar(',');
+        _putchar(' ');
+        if (a < 98)
+        {
+            i++;
+        }
+        else
+        {
+            i--;
+        }
+    }
+    _putchar(9 + 48);
+    _putchar(8 + 48);
 
-
-if (i != 98)
-{
-_putchar(' ');
-_putchar(',');
-}
-}
-}
-else
-{
-for (i = a; i < 99; i++)
-{
-if (a < 0)
-{
-_putchar('-');
-}
-if (i % 1000 !=0)
-{
-_putchar(((i) - (i % 100) - (i % 10)) % 1000 + 48);
-}
-if (i % 100 !=0)
-{
-_putchar((i - (i % 10)) % 100 + 48);
-}
-if (i != 98)
-{
-_putchar(' ');
-_putchar(',');
-}
-}   
-}
 }
