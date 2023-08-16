@@ -22,7 +22,7 @@ void print_to_98(int a)
         {
            _putchar(((((unsigned)i % 100) - ((unsigned)i % 10))/10) + 48);
         }
-        _putchar((i % 10) + 48);
+        _putchar(((unsigned)i % 10) + 48);
         _putchar(',');
         _putchar(' ');
         if (a > 98)
