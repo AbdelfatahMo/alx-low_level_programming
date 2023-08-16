@@ -7,22 +7,23 @@
  */
 void print_to_98(int a)
 {
-    int i;
+    int i, x;
     for (i = a; i != 98;)
     {   
         if (i < 0)
         {
             _putchar('-');
         }
+        x = i;
         if (i >= 100 || i <= -100)
         {
-           _putchar((((unsigned)i - (((unsigned)i % 100))) / 100) + 48);
+           _putchar((((unsigned int)x - (((unsigned int)x % 100))) / 100) + 48);
         }
         if (i >= 10 || i <= -10)
         {
-           _putchar(((((unsigned)i % 100) - ((unsigned)i % 10))/10) + 48);
+           _putchar(((((unsigned int)x % 100) - ((unsigned int)x % 10))/10) + 48);
         }
-        _putchar(((unsigned)i % 10) + 48);
+        _putchar(((unsigned int)x % 10) + 48);
         _putchar(',');
         _putchar(' ');
         if (i > 98 )
