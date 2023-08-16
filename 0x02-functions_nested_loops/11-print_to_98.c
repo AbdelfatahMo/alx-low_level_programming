@@ -20,7 +20,7 @@ void print_to_98(int a)
         }
         if (a > 9 || a < -9)
         {
-           _putchar((((i % 100) -  (i % 10))) + 48);
+           _putchar((((i % 100) -  (i % 10))/10) + 48);
         }
         _putchar((i % 10) + 48);
         _putchar(',');
