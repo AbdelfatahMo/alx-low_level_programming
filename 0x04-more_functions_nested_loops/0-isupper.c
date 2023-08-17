@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha - returns 1 if is alpha case else 1
+ * _isupper - returns 1 if is alpha case else 1
  * @c: The int to check
  * Return: void
  * On error, returnnothing.
