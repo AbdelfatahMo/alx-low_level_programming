@@ -4,7 +4,6 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 int i;
@@ -26,7 +25,11 @@ else
 {
 printf("%d", i);
 }
+if (i != 100)
+{
 printf(" ");
+}
+
 }
 printf("\n");
 return (0);
