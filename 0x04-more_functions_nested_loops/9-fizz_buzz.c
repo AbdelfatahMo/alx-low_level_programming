@@ -1,9 +1,10 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
     int i, c;
@@ -12,25 +13,21 @@ int main(void)
     {
         if (i % 3 == 0 && i % 5 == 0)
         {
-            ch(0, 8);
+            printf("FizzBuzz");
         }
         else if (i % 3 == 0)
         {
-            ch(0, 4);
+            printf("Fizz");
         }
         else if (i % 5 == 0)
         {
-            ch(4, 8);
+            printf("Buzz");
         }
         else
         {
-            if (i > 9)
-            {
-                _putchar(((i - (i % 10)) / 10) + 48);
-            }
-            _putchar((i % 10) + 48);
+            printf("%d", i);
         }
-        _putchar(' ');
+        putchar(' ');
     }
     return (0);
 }
