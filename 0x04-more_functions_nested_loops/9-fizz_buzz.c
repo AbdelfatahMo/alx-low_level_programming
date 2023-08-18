@@ -26,8 +26,8 @@ else
 {
 printf("%d", i);
 }
-putchar(' ');
+printf(" ");
 }
-putchar('\n');
+printf("\n");
 return (0);
 }
