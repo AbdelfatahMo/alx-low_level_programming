@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _isalpha - returns 1 if is alpha case else 1
+ * _isdigit - returns 1 if is alpha case else 1
  * @c: The int to check
  * Return: void
  * On error, returnnothing.
  */
-int _isupper(int c)
+int _isdigit(int c)
 {
 if (c >= 48 && c <= 57)
 {
