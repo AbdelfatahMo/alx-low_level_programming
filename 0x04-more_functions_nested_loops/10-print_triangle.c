@@ -7,26 +7,25 @@
  */
 void print_triangle(int size)
 {
-int i, x;
-int i, x;
-for (i = 1; i < size + 1; i++)
-{
-for (x = 1; x < i + 1; x++)
-{
-if (i == x)
-{
-_putchar('\\');
-}
-else
-{
-_putchar(' ');
-}
-}
-_putchar('\n');
-}
-if (size <= 0)
-{
-_putchar('\n');
-}
-
+    int i, x;
+    int i, x;
+    for (i = 1; i < size + 1; i++)
+    {
+        for (x = size; x >=  1; x--)
+        {
+            if (i = x)
+            {
+                _putchar(' ');
+            }
+            else
+            {
+                _putchar(' ');
+            }
+        }
+        _putchar('\n');
+    }
+    if (size <= 0)
+    {
+        _putchar('\n');
+    }
 }
