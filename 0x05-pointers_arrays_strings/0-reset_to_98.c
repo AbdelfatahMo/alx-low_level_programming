@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * more_numbers - returns 1 if is alpha case else 1
- * @*a The int to check
+ * reset_to_98 - returns 1 if is alpha case else 1
+ * @n The int to check
  * Return: void
  * On error, returnnothing.
  */
