@@ -17,13 +17,14 @@ if (i == 0 && *str != '\0')
 c = *str;
 _putchar(c);
 }
-else if (*(str + i) == '\0')
+else if (*(str + i) != '\0')
 {
 c = *(str + 1);
 _putchar(c);
 }else
 {
 _putchar('\n');
+break;
 }
 i++;
 }
