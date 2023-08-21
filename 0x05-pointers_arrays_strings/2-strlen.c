@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdbool.h>
 /**
  * _strlen - swap
  * @s : The int pointer to swap
@@ -10,9 +9,7 @@ int _strlen(char *s)
 {
 int i;
 i = 0;
-bool last;
-last = true;
-while (last)
+while (1)
 {
     if (i == 0 && *s == '\0')
     {
