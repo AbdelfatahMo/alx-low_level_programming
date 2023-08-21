@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _strlen - swap
- * @s : The int pointer to swap
+ * _puts - print
+ * @str : pointer of string
  * Return: int
  * On error, returnnothing.
  */
@@ -19,9 +19,10 @@ _putchar(c);
 }
 else if (*(str + i) != '\0')
 {
-c = *(str + 1);
+c = *(str + i);
 _putchar(c);
-}else
+}
+else
 {
 _putchar('\n');
 break;
