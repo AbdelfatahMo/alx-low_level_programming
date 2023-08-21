@@ -12,7 +12,7 @@ void print_rev(char *s)
     {
         if (i == 0 && *s == '\0')
         {
-           break;
+            break;
         }
         else if (*(s + i) == '\0')
         {
@@ -22,15 +22,20 @@ void print_rev(char *s)
     }
     while (1)
     {
-        if (i < 0)
+        if (i == 0)
+        {
+            _putchar(*s);
+        }
+        else if (i > 0)
+        {
+            _putchar(*(s + i));
+        }
+        else
         {
             _putchar('\n');
             break;
         }
-        else
-        {
-            _putchar(*(s + i));
-        }
+
         i--;
     }
 }
