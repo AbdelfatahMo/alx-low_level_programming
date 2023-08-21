@@ -7,11 +7,11 @@
  */
 void print_rev(char *s)
 {
-int i = sizeof(s);
+int i = sizeof(s) -1;
 char c;
 while (1)
 {
-if (i == 0)
+if (i <= 0)
 {
 c = *s;
 _putchar(c);
