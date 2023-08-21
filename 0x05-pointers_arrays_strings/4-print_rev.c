@@ -22,7 +22,7 @@ void print_rev(char *s)
     }
     while (1)
     {
-        if (i == 0)
+        if (i < 0)
         {
             _putchar('\n');
             break;
