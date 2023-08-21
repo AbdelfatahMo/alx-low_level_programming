@@ -7,6 +7,7 @@
  */
 void puts2(char *str)
 {
+int x;
 int i = 0;
 while (1)
 {
@@ -20,7 +21,7 @@ break;
 }
 i++;
 }
-for (int x = 0; x <= i; x++)
+for (x = 0; x <= i; x++)
 {
 if (x % 2 == 0)
 {
