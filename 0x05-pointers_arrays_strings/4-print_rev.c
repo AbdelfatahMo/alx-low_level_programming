@@ -18,7 +18,7 @@ _putchar(c);
 _putchar('\n');
 break;
 }
-else if (*(s + i) != '\0')
+else
 {
 c = *(s + i);
 _putchar(c);
