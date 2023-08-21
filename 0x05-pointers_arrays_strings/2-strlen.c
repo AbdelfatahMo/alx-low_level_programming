@@ -13,9 +13,9 @@ while (1)
 {
 if (i == 0 && *s == '\0')
 {
-return (0);   
+return (0);
 }
-else if (*(s + i)== '\0')
+else if (*(s + i) == '\0')
 {
 return (i);
 }
