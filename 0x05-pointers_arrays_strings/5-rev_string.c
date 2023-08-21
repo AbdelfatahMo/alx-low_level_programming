@@ -7,9 +7,9 @@
  */
 void rev_string(char *s)
 {
-char c;
+int x;
 int i = _strlen(s);
-for (int x = 0; x < (i / 2) -1; x++)
+for (x = 0; x < (i / 2) -1; x++)
 {
     swap_int(*(s + x),*(s + (i - x)));
 }
