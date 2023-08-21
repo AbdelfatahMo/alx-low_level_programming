@@ -7,7 +7,19 @@
  */
 void print_rev(char *s)
 {
-    int i = sizeof(*s) - 1;
+    int i;
+    while (1)
+    {
+        if (i == 0 && *s == '\0')
+        {
+           break;
+        }
+        else if (*(s + i) == '\0')
+        {
+            break;
+        }
+        i++;
+    }
     char c;
     while (1)
     {
