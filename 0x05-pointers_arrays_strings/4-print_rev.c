@@ -21,7 +21,8 @@ void print_rev(char *s)
         i++;
     }
     while (1)
-    {
+    {   
+        i--;
         if (i == 0)
         {
             _putchar(*s);
@@ -35,7 +36,5 @@ void print_rev(char *s)
             _putchar('\n');
             break;
         }
-
-        i--;
     }
 }
