@@ -20,20 +20,17 @@ void print_rev(char *s)
         }
         i++;
     }
-    char c;
     while (1)
     {
         if (i <= 0)
         {
-            c = *(s + i);
-            _putchar(c);
+            _putchar(*(s + i));
             _putchar('\n');
             break;
         }
         else
         {
-            c = *(s + i);
-            _putchar(c);
+            _putchar(*(s + i));
         }
         i--;
     }
