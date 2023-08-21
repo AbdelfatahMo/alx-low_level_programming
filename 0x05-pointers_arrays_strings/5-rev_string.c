@@ -11,6 +11,6 @@ int x;
 int i = _strlen(s);
 for (x = 0; x < (i / 2) -1; x++)
 {
-    swap_int(*(s + x),*(s + (i - x)));
+    swap_int(s[x],s[(i - x)]);
 }
 }
