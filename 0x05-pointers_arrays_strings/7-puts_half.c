@@ -7,7 +7,7 @@
  */
 void puts_half(char *str)
 {
-    int i;
+    int i,x,y;
     char c;
     i = 0;
     while (1)
@@ -22,14 +22,12 @@ void puts_half(char *str)
         }
         i++;
     }
-    int x;
     x = i / 2;
     if (i % 2 ==1)
     {
         x = (i - 1) / 2;
     }
-    
-    for (int y = x; y < i + 1; y++)
+    for (y = x; y < i + 1; y++)
     {
         _putchar(*(str + y));
     }
