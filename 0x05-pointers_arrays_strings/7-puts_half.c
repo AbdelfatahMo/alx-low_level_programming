@@ -21,10 +21,10 @@ void puts_half(char *str)
         }
         i++;
     }
-    x = i / 2;
+    x = (i + 1) / 2;
     if (i % 2 ==1)
     {
-        x = (i - 1) / 2;
+        x = (i) / 2;
     }
     for (y = x; y <= i; y++)
     {
