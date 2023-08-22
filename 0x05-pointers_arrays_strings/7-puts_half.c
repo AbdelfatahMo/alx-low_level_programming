@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts2 - print
+ * puts_half - print
  * @str : pointer of string
  * Return: int
  * On error, returnnothing.
@@ -14,11 +14,11 @@ void puts_half(char *str)
     {
         if (i == 0 && *str == '\0')
         {
-            return (0);
+            break;
         }
         else if (*(str + i) == '\0')
         {
-            return (i);
+            break;
         }
         i++;
     }
@@ -28,9 +28,9 @@ void puts_half(char *str)
         x = (i - 1) / 2;
     }
     
-    for (x; x < i + 1; x++)
+    for (int y = x; y < i + 1; y++)
     {
-        _putchar(*(str + x));
+        _putchar(*(str + y));
     }
     _putchar('\n');
 }
