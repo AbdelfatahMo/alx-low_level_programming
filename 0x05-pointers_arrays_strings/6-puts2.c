@@ -7,26 +7,24 @@
  */
 void puts2(char *str)
 {
-int x;
-int i = 0;
-while (1)
-{
-if (i == 0 && *str == '\0')
-{
-break;
-}
-else if (*(str + i) == '\0')
-{
-break;
-}
-i++;
-}
-for (x = 0; x <= i; x++)
-{
-if (x % 2 == 0)
-{
-_putchar(*(str + i));
-}   
-}
-_putchar('\n');
+    int i;
+    char c;
+    i = 0;
+    while (1)
+    {
+        if (*(str + i) == '\0')
+        {
+        	break;
+        }
+        else if (i % 2 == 0)
+        {
+            c = *(str + i);
+            _putchar(c);
+        }
+        else
+        {
+        }
+        i++;
+    }
+    _putchar('\n');
 }
