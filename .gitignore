@@ -1,2 +1,3 @@
 # ignore 0-putchar.c
 **/_putchar.c
+**/test.c
